@@ -1,0 +1,211 @@
+body 
+{
+    background-image: url("back.svg");
+    background-size: 100%;
+    background-position: auto;
+    background-repeat: repeat-y;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.textH
+{
+    font-family: 'Manrope', Segoe UI, Helvetica;
+    letter-spacing: 1px;
+}
+
+
+.text
+{
+    font-family: 'Source Sans Pro', Segoe UI;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width:auto;
+    line-height: 1.1;
+}
+
+.ftext
+{
+    color: #4DA7C2;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 18px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+}
+
+.select
+{
+    font-size: 23px;
+    margin-left: 0;
+    display: block;
+}
+
+#danger-select
+{
+    font-family: 'Source Sans Pro', Segoe UI;
+    color: #0081A7;
+    font-size: 16px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    cursor: pointer;
+    background-color: white;
+    border-color: #0081A7;
+}
+
+.header
+{
+    color: #4DA7C2;
+    font-size: 25px;
+    line-height: 1.1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.fHeader
+{
+    font-family: 'Manrope', Segoe UI, Helvetica;
+    color: #4DA7C2;
+    font-size: 23px;
+    padding-top: 0;
+    height: 50px;
+}
+
+h1
+{
+    color: #0081A7;
+    font-size: 40px;
+    line-height: 0.6;
+    font-weight: 400;
+}
+
+h2
+{
+    color: #4DA7C2;
+    font-size: 26px;
+    line-height: 0.3;
+    font-weight: 400;
+}
+
+.firstbox
+{
+    background-color: #7BCFC5;
+    margin: auto;
+    width: 96%;
+}
+
+.secondbox
+{
+    background-color: #17B6BF;
+    margin: auto;
+    width: 96%;
+}
+
+.list
+{
+    width: inherit;
+    margin-bottom: -0.05%;
+}
+
+.list ol li
+{
+    font-size: 20px;
+}
+
+.table
+{
+    background-color: #EBF5FF;
+    border: 0;
+    width:100%;
+    text-align: left;
+}
+
+.table th
+{
+    font-family: 'Manrope', Segoe UI, Helvetica;
+    color: #4DA7C2;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.table td
+{
+    font-family: 'Source Sans Pro', Segoe UI;
+    color: #4DA7C2;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.fElement
+{
+    display: inline-block; 
+    width: 24%;
+}
+
+#map
+{
+    height: 500px; 
+    margin: auto;
+    width: 96%;
+    margin-top: 20px;
+}
+
+.map
+{
+    border-style: solid;
+    border-color: #D9C7F2;
+    border-width: 2px;
+}
+
+#mainheader
+{
+    height: 150px;
+    padding-left: 18px;
+    display: flex;
+    align-items: center;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.footer
+{
+    background: #EBF5FF;
+    border-style: solid;
+    border-color:#EBF5FF;
+    border-width: 2px;
+}
+
+.licensesbox
+{
+    background: #EBF5FF;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.toggle
+{
+    cursor: pointer;
+    margin-right: 9px;
+    margin-left: 5px;
+}
+
+.toggleDefault
+{
+    transform: rotate(90deg);
+}

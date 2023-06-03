@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://api-maps.yandex.ru/2.1/" type="text/javascript"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600&family=Source+Sans+Pro:wght@200;300;400;600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="mainheader">
+			<div id="h1h2" class="textH">
+				<h1>Безопасный маршрут</h1>
+				<h2>в городе Новосибирск</h2>
+			</div>
+		</div>
+		<div class="textH header">
+			<img src="angle2.svg" class="icon toggle" style="width: 16px" id="icon1"></img>
+			Наша цель
+		</div>
+		<div class="firstbox">
+			<div class="text" id="icon1text" style="display: none">
+				Многие из нас встречаются с различными опасностями на улице, которые хотелось бы избежать и учитывать при построении своего маршрута. Данный проект создан для внедрения нового метода нахождения безопасного маршрута, в котором учитываются 5 видов опасностей: отсутствие освещения, дворы, места выгула собак, стаи диких животных и недавнее место преступления.
+			</div>
+		</div>
+		<div class="textH header">
+			<img src="angle2.svg" class="icon toggle" style="width: 16px" id="icon2"></img>
+			Как это работает?
+		</div>
+		<div class="secondbox">
+			<div class="text" id="icon2text" style="display: none">
+				Работа программы очень проста — существуют два режима работы с картой:
+<ol class="list"><li>Построение маршрута. Для этого необходимо поставить начальную и конечную точки на карте. После этого вам будет построен безопасный маршрут с учётом имеющихся опасностей. Цвет построенного пути, также имеет свой смысл:
+<ul><li>Зелёный цвет <img src="swatch1.svg" style="width: 10px;"> обозначает, что путь находится в безопасной области.</li>
+	<li>Жёлтый цвет <img src="swatch2.svg" style="width: 10px;"> обозначает путь, который имеет среднюю опасность.</li>
+		<li>Красный цвет <img src="swatch3.svg" style="width: 10px;"> обозначает очень опасную часть пути. Программа должна обходить такие (и средне опасные) участки дороги, но если вы их заметили на своём пути, то это означает, что по-другому добраться до конечной точки маршрута не получится.</li></ul>
+			Для построения нового маршрута необходимо нажать на карту 3-ий раз и ваши выбранные точки очистятся.</li>
+<li>Отметка опасностей. Разрабатываемая программа пока не имеет автоматических уведомлений опасностей от заведующими ими служб. Поэтому все опасности проставляются на добровольной основе небезразличными гражданами. Для отметки необходимо выбрать снизу карты тип опасности, первым кликом выбрать центр, а вторым радиус выделяемой области. После этого вы успешно отправляете нам информацию о выбранной опасности. Чтобы убрать изображение проставленной вами области, необходим 3-ий клик по карте.</li></ol>
+				Внимание, программа работает пока только на выделенном участке карты!	
+		</div>			
+		</div>
+		<div class="map" id="map"></div>
+		<div class="textH header" style="display: block; letter-spacing: 0.5px;">
+			<div class="select">
+				<label for="danger-select">Выберите тип опасности для выделения её на карте</label>
+			</div>
+			<div>
+				<select name="danger" id="danger-select">
+					<option value="">Тип опасности не выбран</option>
+					<option value="1">Нет освещения на участке карты</option>
+					<option value="2">Дворы</option>
+					<option value="3">Место выгула собак</option>
+					<option value="4">Были замечены стаи бродячих собак в этом районе</option>
+					<option value="5">Здесь было совершено преступление</option>
+				</select>
+			</div>
+		</div>
+		<table class="table">
+			<tr>
+				<th>
+					Создательница проекта
+				</th>
+				<th>
+					Контактная информация
+				</th>
+				<th>
+					Справочный материал
+				</th>
+				<th style="text-align: center;">
+					Берегите себя!
+				</th>
+			</tr>
+			<tr>
+				<td>
+					Ильина С., 4 курс, кафедры АВТ,
+				</td>
+				<td>
+					<img src="mail.svg" style="width:20px; margin-top: -2px;"> s.ilina.2019@stud.nstu.ru
+				</td>
+				<td>
+					<a href="./licenses" class="text ftext"> Лицензии </a>
+				</td>
+				<td style="text-align: center;">
+					<img src="heart.svg" style="width: 25px;">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					 факультета АВТФ, НГТУ
+				</td>
+				<td>
+					<img src="pointf.svg" style="width:15px; margin-right: 2.5px; margin-left: 2.5px"> Новосибирск, НГТУ
+				</td>
+				<td>
+					 
+				</td>
+				<td>
+					 
+				</td>
+			</tr>
+		</table>
+		<script src="ymap.js" type="text/javascript"></script>
+	</body>
+</html>

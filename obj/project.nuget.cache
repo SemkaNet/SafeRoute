@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "lsyh+5WIpGJvxemvCdqSzGyw4BPngqwqzZZKYGe6bkdnAUpLpmPfKqm3UOjSGFd0V2uYOGtDdB5MChIORkyyEA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SemkaNet\\source\\repos\\MapAPI\\MapAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SemkaNet\\.nuget\\packages\\coordinatesharp\\2.18.1.1\\coordinatesharp.2.18.1.1.nupkg.sha512",
+    "C:\\Users\\SemkaNet\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\SemkaNet\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512",
+    "C:\\Users\\SemkaNet\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
